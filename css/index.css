@@ -1,10 +1,4 @@
-/*
 
-
-* {
-    margin: 0;
-    paddin: 0;
-}
 selector {
     property: value;
     another-property: value;
@@ -14,9 +8,11 @@ h1 {
     color: red; 
     margin: 40px;
     border: 1px solid black;
+    font-family: Great Vibes, cursive;
+
 }
 h3 {
-    color: red;
+    color: var(--main-text-color);
 }
 .header__banner-subtext {
    color: blue; 

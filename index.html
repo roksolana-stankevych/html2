@@ -1,22 +1,78 @@
-<!DOCTYPE html>
+<<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=HTML, initial-scale=1.0">
-    <title>HTML Simple Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Closes</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-<header>
-<h1>Hello HTML</h1>
-</header>   
-<main>
-    <img src="img/tricollor-eacup-cavapoo.jpg" alt="Dog">
-
-</main>
-<footer>
-
-</footer>
-
+    <header class="header">
+        <div class="header__top-row">
+            <p class="header__top-row-info">
+                We’ve extended our returns period to 30 days
+            </p>
+            <a href="mailto:workout@email.com" class="header__top-row-email">workout@email.com</a>
+            <a href="tel:+12345678900" class="header__top-row-email">+1 (234) 567 89 00</a>
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav-logo-container">
+                <img src="img/logo-workout.svg" alt="Logo Workout">
+            </div>
+            <div class="header__nav-menu">
+                <a href="#about-us">About us</a>
+                <a href="#about-us">Sale</a>
+                <a href="#about-us">Contacts</a>
+            </div>
+            <div class="header__nav-social-icons">
+                <img src="img/facebook-icon.svg" alt="Facebook Icon">
+            </div>
+        </nav>
+        <div class="header__banner">
+            <p class="header__banner-subtext">ASPIRE TO MORE</p>
+            <h1 class="header__banner-h1">New collections by top brands.</h1>
+            <a href="#shop-more" class="header__banner-shop-more button">Shop more</a>
+        </div>
+    </header>
+    <main>
+        <section class="new-arrivals">
+            <h2 class="new-arrivals__h2">New arrivals</h2>
+            <div class="horizontal-line"></div>
+            <p class="new-arrivals__subtext">Be the first to buy new items by leading brands.</p>
+            <a href="#more" class="new-arrivals__more button">More</a>
+            <div class="new-arrivals__carousel">
+                <article class="new-arrivals__carousel slide">
+                    <img src="img/carousel-sneakers-adidas.jfif" alt="Adidas">
+                    <h3 class="slide__h3">Adidas</h3>
+                    <p class="slide__price">$120.00</p>
+                    <button>Add to cart</button>
+                </article>
+                <article class="new-arrivals__carousel slide">
+                    <img src="img/carousel-sneakers-adidas.jfif" alt="Adidas">
+                    <h3 class="slide__h3">Adidas</h3>
+                    <p class="slide__price">$120.00</p>
+                    <button>Add to cart</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__infoblock">
+            <img src="img/logo-workout.svg" alt="Logo Workout">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, alias! Odio in, pariatur labore alias dicta adipisci earum, id laudantium ratione aut animi nobis quos? Vero saepe veritatis obcaecati rem.</p>
+        </div>
+        <nav class="footer__navigation">
+            <div class="horizontal-line"></div>
+            <div class="links">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </nav>
+    </footer>
 </body>
+
 </html>

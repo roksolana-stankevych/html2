@@ -1,0 +1,33 @@
+/*
+
+
+* {
+    margin: 0;
+    paddin: 0;
+}
+selector {
+    property: value;
+    another-property: value;
+}
+    */
+h1 {
+    color: red; 
+    margin: 40px;
+    border: 1px solid black;
+}
+h3 {
+    color: red;
+}
+.header__banner-subtext {
+   color: blue; 
+}
+.new-arrivals__subtext:hover {
+font-weight: bold;
+}
+p::first-letter {
+    font-size: 2rem;
+}
+.header__banner p::first-letter {
+text-decoration: underline;
+font-size: 1rem;
+}
